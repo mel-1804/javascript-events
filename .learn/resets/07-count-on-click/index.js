@@ -18,11 +18,3 @@ window.increaseCounter = function increaseCounter()
 
 // Your code here
 
-// Called when the user clicks
-window.decreaseCounter = function decreaseCounter()
-{
-	// Increase the global counter by one
-	counter--;
-	// Update the screen with the new value
-	document.getElementById('screen').innerHTML = "The counter value is "+counter;
-}
